@@ -13,7 +13,7 @@ type FormDetails = {
     deanEmail: string
 }
 
-export default function page() {
+export default function Page() {
     const supabase = createClientComponentClient();
     const [formDetails, setFormDetails] = useState<FormDetails>({} as FormDetails)
 
