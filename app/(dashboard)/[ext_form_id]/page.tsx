@@ -20,7 +20,7 @@ type FormDetails = {
 }
 // re_Pbx6z9dv_NW9PqYxieSEZfm3uMgYticen
 
-export default function page() {
+export default function Page() {
     const supabase = createClientComponentClient();
     const [formDetails, setFormDetails] = useState<FormDetails>({} as FormDetails)
     const { ext_form_id } = useParams();
